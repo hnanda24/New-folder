@@ -22,21 +22,6 @@ function App() {
     let title = "";
     let metaDescription = "";
 
-    // switch (pathname) {
-    //   case "/":
-    //     title = "";
-    //     metaDescription = "";
-    //     break;
-    //   case "/mobile":
-    //     title = "";
-    //     metaDescription = "";
-    //     break;
-    //   case "/tablet":
-    //     title = "";
-    //     metaDescription = "";
-    //     break;
-    // }
-
     if (title) {
       document.title = title;
     }

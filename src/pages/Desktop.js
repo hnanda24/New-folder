@@ -4,7 +4,7 @@ import LogoTicker from "../components/LogoTicker";
 import Product from "../components/Product";
 import Emojistar from "../components/Emojistar";
 import SectionFrame from "../components/SectionFrame";
-import FooterContent from "../components/FooterContent";
+// import FooterContent from "../components/FooterContent";
 import SignUp from "../components/SignUp";
 import Footer from "../components/Footer";
 
@@ -92,7 +92,7 @@ const Desktop = () => {
       </section>
       <section className="self-stretch flex flex-col items-center justify-start pt-[2.563rem] pb-[4.563rem] pr-[1.25rem] pl-[2.875rem] box-border relative gap-[0.063rem_0rem] min-h-[54.813rem] max-w-full lg:pl-[1.438rem] lg:box-border mq450:pt-[1.25rem] mq450:pb-[1.938rem] mq450:box-border mq1050:pt-[1.688rem] mq1050:pb-[2.938rem] mq1050:box-border">
         <SectionFrame />
-        <FooterContent />
+        {/* <FooterContent /> */}
         <div className="w-full h-[calc(100%_-_91px)] absolute !m-[0] top-[0rem] right-[0rem] bottom-[5.688rem] left-[0rem] [background:linear-gradient(180deg,_#fff,_rgba(255,_255,_255,_0))] z-[1]" />
       </section>
       <SignUp />
